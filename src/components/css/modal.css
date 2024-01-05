@@ -1,0 +1,8 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .modal {
+    @apply fixed z-50;
+    @apply backdrop:bg-backdrop;
+  }
+}

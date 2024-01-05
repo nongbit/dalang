@@ -1,0 +1,10 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .drawer {
+    @apply -translate-x-full transition-transform [&[open]]:translate-x-0;
+    &.drawer-right { @apply right-0 translate-x-full [&[open]]:translate-x-0; }
+  }
+
+  .drawer-backdrop { @apply bg-backdrop; }
+}

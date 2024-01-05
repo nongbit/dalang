@@ -1,0 +1,23 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .dropdown {
+    [data-toggle=dropdown]::after {
+      @apply inline-block align-[4px] ml-1;
+      @apply content-[''];
+      @apply border-4 border-b-0 border-transparent border-t-current;
+    }
+
+    .dropdown-content {
+      @apply hidden absolute top-0 left-0 w-fit;
+      @apply whitespace-nowrap;
+    }
+
+    .dropdown [data-toggle=dropdown]::after {
+      @apply align-[2px];
+      @apply border-4 border-r-0 border-transparent border-l-current;
+    }
+
+    &[open] > .dropdown-content { @apply block; }
+  }
+}

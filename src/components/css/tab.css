@@ -1,0 +1,7 @@
+@import "tailwindcss/components";
+
+@layer components {
+  .tab {
+    .tab-content { @apply hidden [&[open]]:block; }
+  }
+}
