@@ -1,7 +1,7 @@
 {
   "name": "@nongbitcorp/dalang",
   "description": "Collection of components based on the utility-first Tailwind CSS framework",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "main": "src/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
