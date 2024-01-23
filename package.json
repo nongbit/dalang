@@ -1,5 +1,5 @@
 {
-  "name": "@nongbit/dalang",
+  "name": "@nongbitcorp/dalang",
   "description": "Collection of components based on the utility-first Tailwind CSS framework",
   "version": "0.1.0",
   "main": "src/index.js",
